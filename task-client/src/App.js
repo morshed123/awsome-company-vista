@@ -12,7 +12,7 @@ function App() {
   return (
      <Routes>
         <Route path="/" element={<Layouts/>}>
-          <Route path="home" element={<HomePage/>}></Route>
+          <Route path="/" element={<HomePage/>}></Route>
 
 
           <Route path="*" element={<NotFound />} />

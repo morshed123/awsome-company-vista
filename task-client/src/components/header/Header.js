@@ -13,7 +13,7 @@ const Header = () => {
                     <div className="collapse navbar-collapse  d-flex justify-content-evenly" id="navbarTogglerDemo03">
                         <ul className="navbar-nav d-flex align-items-center">
                             <li className="nav-item">
-                                <Link to="home" className="nav-link active" aria-current="page">HOME</Link>
+                                <Link to="/" className="nav-link active" aria-current="page">HOME</Link>
                             </li>
                             <li className="nav-item">
                                 <Link to="about-us" className="nav-link">ABOUT US</Link>
@@ -22,7 +22,7 @@ const Header = () => {
                                 <Link to="services" className="nav-link">SERVICES</Link>
                             </li>
                             <li className="nav-item nav__img">
-                                <Link to="" className="navbar-brand">
+                                <Link to="/" className="navbar-brand">
                                     <img src={imageHeader} alt="image" style={{ width: "65px", height: "75px" }} />
                                 </Link>
                             </li>
